@@ -8,11 +8,11 @@ class EggCartons {
     int s = 0;
 
     if (n % 6 == 0){
-        int min = n/6;
+        min = n/6;
     }
 
     if (n % 8 == 0){
-        int min = n/8;
+        min = n/8;
     }
 
     for (int i = 1; i <= 17; i++)
