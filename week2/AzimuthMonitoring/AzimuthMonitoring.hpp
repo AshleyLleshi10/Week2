@@ -1,10 +1,11 @@
 #include<string>
+#include<vector>
 // #include<iostream>
 class AzimuthMonitoring {
     public:
-        int getAzimuth (std::string instructions[]){
+        int getAzimuth (std::vector<std::string> instructions[]){
             int azimuth = 360;
-            for (int i = 0; i <= instructions.length(); i++)
+            for (int i = 0; i <= instructions->length(); i++)
             {
                 //std::cout << azimuth << std::endl;
                 if (instructions[i].length() == 5)
