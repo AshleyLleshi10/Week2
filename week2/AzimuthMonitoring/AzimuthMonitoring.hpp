@@ -7,7 +7,7 @@ class AzimuthMonitoring {
             int azimuth = 360;
             for (int i = 0; i <= instructions->size(); i++)
             {
-                std::string currInts = instructions[i];
+                std::string currInts = instructions[0];
                 //std::cout << azimuth << std::endl;
                 if (instructions[i].size() == 5)
                 {
